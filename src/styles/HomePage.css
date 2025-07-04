@@ -1,0 +1,115 @@
+.home-container {
+  min-height: 100vh;
+  width: 100%;
+  background: url('../assets/images/home_bg.jpg') center/cover no-repeat;
+ 
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  padding-left: 5%;
+   transition: filter 0.3s ease;
+}
+
+.home-content {
+  text-align: left;
+  color: #2c3e50;
+  max-width: 600px;
+  padding: 2rem;
+}
+
+.logo-section {
+  margin-bottom: 2rem;
+}
+
+.logo-placeholder {
+  display: inline-block;
+}
+
+.logo-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.welcome-section {
+  margin-bottom: 3rem;
+}
+
+.welcome-title {
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #2c3e50;
+  text-shadow: none;
+  line-height: 1.2;
+}
+
+.welcome-subtitle {
+  font-size: 1.6rem;
+  color: #f39c12;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  text-shadow: none;
+}
+
+.welcome-description {
+  font-size: 1.2rem;
+  color: #6c757d;
+  line-height: 1.6;
+  text-shadow: none;
+  margin-bottom: 2rem;
+}
+
+.action-section {
+  margin-top: 2rem;
+}
+
+.login-button {
+  background-color: #16a085;
+  color: #ffffff;
+  border: none;
+  padding: 1rem 2.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(22, 160, 133, 0.3);
+}
+
+.login-button:hover {
+  background-color: #138d75;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(22, 160, 133, 0.4);
+}
+
+.login-button:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 10px rgba(22, 160, 133, 0.3);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .home-container {
+    padding-left: 3%;
+    justify-content: center;
+  }
+  
+  .home-content {
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  .welcome-title {
+    font-size: 2.8rem;
+  }
+  
+  .welcome-subtitle {
+    font-size: 1.4rem;
+  }
+  
+  .login-button {
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+  }
+}
