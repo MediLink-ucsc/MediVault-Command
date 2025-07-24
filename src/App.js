@@ -17,7 +17,7 @@ function App() {
           <Route path="/add-clinic" element={<AddClinicPage />} />
           <Route path="/manage-clinics" element={<ManageClinicsPage />} />
           <Route path="/clinic-details/:clinicId" element={<ClinicDetailsPage />} />
-          {/* We'll add more routes later */}
+          
         </Routes>
       </div>
     </Router>
