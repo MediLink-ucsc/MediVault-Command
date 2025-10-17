@@ -386,3 +386,30 @@
     justify-content: center;
   }
 }
+
+.tabs-section {
+  display: flex;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #e1e5e9;
+}
+
+.tab-btn {
+  padding: 12px 24px;
+  background: none;
+  border: none;
+  border-bottom: 2px solid transparent;
+  font-size: 14px;
+  font-weight: 500;
+  color: #6c757d;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.tab-btn.active {
+  color: #007bff;
+  border-bottom-color: #007bff;
+}
+
+.tab-btn:hover {
+  color: #007bff;
+}
